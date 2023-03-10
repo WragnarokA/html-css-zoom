@@ -8,6 +8,8 @@
   /* Quick Selection */
   
   .flex{display: flex;}
+  .Fdc{flex-direction: column;}
+
   .lst{list-style-type: none;}
 
 
@@ -87,27 +89,87 @@ main{
 }
     
 
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
 /***** FOOTER NAV SELECTION *******/
 
 footer{
     width: 100vw;
     height: 80px;
     background-color: #222222;
+    display: flex;  
+    justify-content: space-between;
+    
 }
+
+
+.containerF{
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    position: relative;
+  
+    
+
+}
+
+.AudioVideo{
+    width: 200px;
+    height: 80px;
+    list-style-type: none;
+    align-items: center;
+    font-size:  25px;
+    padding: 1em;
+}
+   
+.NavSel{
+    width: 800px;
+    height: 80px;
+    
+    color: white;
+    align-items: center;
+    font-size:  25px;
+    padding: 1em;
+    position: absolute;
+    right: 400px;
+
+}
+#l{
+    color:#4bc800 ;
+}
+   
+.L1{
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+.L2{
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+
+
+.End{
+    width: 200px;
+    height: 80px;
+    color: red;
+    background-color: gray;
+    align-items: center;
+    font-size:  25px;
+    padding: 1em;
+    position: absolute;
+    right: 0;
+   
+
+
+
+}
+
+
+
+
+
+
 
 
