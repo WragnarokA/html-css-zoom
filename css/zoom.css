@@ -20,6 +20,8 @@ header{
     width: 100vw;
     height: 25px;
     background-color: black;
+    justify-content: center;
+    
 
     
 }
@@ -44,11 +46,52 @@ header{
 
 
 /***** MAIN IMG REPETITIVE *******/
+
 main{
     width: 100vw;
     height: calc(100vh - 105px);
     background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+   
+
 }
+
+.container{
+    width: 1500px;
+    max-height: 100vh;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 210px;
+    height: 125px;
+    position: relative;
+    margin-right: 0.22em;
+
+  
+}
+  .cardImage > img{
+    width: 100%;
+  }
+   
+
+
+.pincopalo{
+    background-color: #C0C0C077;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    
+}
+    
+
+
+
+
+   
+
 
 
 
@@ -66,4 +109,5 @@ footer{
     height: 80px;
     background-color: #222222;
 }
+
 
